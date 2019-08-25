@@ -18,7 +18,7 @@ h2  {
 }
 
 p {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 40px;
     margin-left: 40px;
 }
@@ -115,11 +115,39 @@ footer {
     margin-top: 20px;
     padding: 20px;
     border-top: 5px solid #4aaaa5;
-    position: relative;
+    position: fixed;
     bottom: 0px;
 }
  
 #pfooter {
     font-size: 8px;
     text-align: center;
+}
+
+.contact {
+    background: #ffffff;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+input {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 7px;
+}
+
+textarea {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 7px;
 }
