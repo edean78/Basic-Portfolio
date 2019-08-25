@@ -82,6 +82,10 @@ li:first-child{
     border-right: none;
 }
 
+li:hover {
+    background: #b1afaf;
+}
+
 article {
     margin: 0 auto;
     width: 960px;
@@ -134,6 +138,7 @@ input {
     width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
+    padding-left:5px;
     margin-top: 10px;
     margin-bottom: 10px;
     display: inline-block;
