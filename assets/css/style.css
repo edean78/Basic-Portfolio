@@ -119,6 +119,17 @@ footer {
     margin-top: 20px;
     padding: 20px;
     border-top: 5px solid #4aaaa5;
+    position: absolute;
+    bottom: 0px;
+}
+
+footer.port {
+    background-color: #666666;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    border-top: 5px solid #4aaaa5;
     position: fixed;
     bottom: 0px;
 }
@@ -159,4 +170,24 @@ input[type=submit] {
     width: 75px;
     background-color:#4aaaa5;
     color: white;
+}
+
+.portfolio {
+    background: #ffffff;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.desc {
+    padding: 10px;
+    text-align: center;
+    background: #4aaaa5;
+    color: white;
+
+}
+
+.gallery {
+    margin: 10px;
+    float: left;
+    width: 300px;
 }
